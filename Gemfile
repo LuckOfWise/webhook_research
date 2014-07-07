@@ -41,3 +41,7 @@ gem 'spring',        group: :development
 group :development do
   gem 'heroku_san', git: 'git://github.com/jphenow/heroku_san', branch: 'bug/wrong-ruby-version-loaded'
 end
+group :production do
+  gem 'rails_12factor'
+  gem 'non-stupid-digest-assets'
+end
