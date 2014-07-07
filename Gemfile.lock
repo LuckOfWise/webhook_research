@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/jphenow/heroku_san
+  revision: ca2e086024fe7d44598173af93c55d37e9e3431d
+  branch: bug/wrong-ruby-version-loaded
+  specs:
+    heroku_san (4.2.5)
+      heroku-api (>= 0.1.2)
+      rake
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -37,7 +46,11 @@ GEM
       execjs
     coffee-script-source (1.7.0)
     erubis (2.7.0)
+    excon (0.37.0)
     execjs (2.2.1)
+    heroku-api (0.3.18)
+      excon (~> 0.27)
+      multi_json (~> 1.8)
     hike (1.2.3)
     i18n (0.6.9)
     jbuilder (2.1.1)
@@ -114,6 +127,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  heroku_san!
   jbuilder (~> 2.0)
   jquery-rails
   pg
