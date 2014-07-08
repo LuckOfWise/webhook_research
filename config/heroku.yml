@@ -14,4 +14,4 @@ production:
   app: webhook-research
   config:
     BUNDLE_WITHOUT: "development:test"
-    
+    SECRET_KEY_BASE: "612762b9407bfa4b297b98d2f93ab2d3cc3d4118040fca094617261f8ff78cccf80082545385fa16186dc0e77c8dc42e03f6964fd04d7f1e3ea4db2ba5ecaa91"
